@@ -1,0 +1,7 @@
+http://vlado.fmf.uni-lj.si/pub/networks/data/UciNet/UciData.htm#thuroff
+
+http://vlado.fmf.uni-lj.si/pub/networks/data/
+
+https://comunelab.fbk.eu/data.php
+
+http://multilayer.it.uu.se/datasets.html

@@ -1,0 +1,9 @@
+function [edges]=Ajda2Edge(adjl1)
+n=length(adjl1);
+[EL1a EL1b]=find(adjl1>0);
+edges_L1=[EL1a EL1b];
+edges_L1(:,3)=1;
+edges_L1(:,4)=EL1a+EL1b;
+edgeCount_L1=length(edges_L1);
+edgeSet=[edges_L1];
+edges=[edgeSet(:,2) edgeSet(:,1) edgeSet(:,3)];
